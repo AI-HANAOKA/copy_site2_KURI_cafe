@@ -1,0 +1,152 @@
+html {
+    font-size: 62.5%;
+}
+
+.header__pc-nav ,
+.menu__card__card1__pc-img ,
+.menu__card__card2__pc-img ,
+.menu__card__card3__pc-img{
+    display: none;
+}
+
+
+/*--------------------title 共通-----------------------*/
+
+.over-view__title ,
+.menu__tilte {
+    color: rgb(93,60, 40);
+    font-size: 1.9rem;
+    font-weight: bold;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    letter-spacing: .2rem;
+    padding: 50px 0 40px;
+    text-align: center;
+}
+
+
+/*--------------------hader-----------------------*/
+#header {
+    width: 100vw;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    color: rgb(93,60, 40);
+    font-size: 3rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    letter-spacing: .05rem;
+    padding-left: 10px;
+}
+
+
+/*--------------------top view-----------------------*/
+.top-view {
+    width: 100vw;
+    background-image: url("../img/sample7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-view__text {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    letter-spacing: .2rem;
+}
+
+
+/*--------------------main-----------------------*/
+.main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*--------------------over view-----------------------*/
+.over-view {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.over-view__text1 ,
+.over-view__text2 ,
+.over-view__text3 {
+    font-size: 1.5rem;
+    text-align: start center;
+    letter-spacing: .1rem;
+    /* 単位指定したらいけん */
+    line-height: 2.5;
+}
+
+
+/*--------------------menu-----------------------*/
+#menu {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    background-color: rgb(252,245, 239);
+}
+
+.menu--vw ,
+.menu__card {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__card__card1 ,
+.menu__card__card2 ,
+.menu__card__card3 {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menu__card__card1__sp-img ,
+.menu__card__card2__sp-img ,
+.menu__card__card3__sp-img {
+    width: 90vw;
+}
+
+.menu__card__card1__title ,
+.menu__card__card2__title ,
+.menu__card__card3__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: start;
+    padding: 15px 0;
+}
+
+.menu__card__card1__text ,
+.menu__card__card2__text ,
+.menu__card__card3__text {
+    font-size: 1.3rem;
+    letter-spacing: .3rem;
+    line-height: 1.7;
+    padding-bottom: 30px;
+}
