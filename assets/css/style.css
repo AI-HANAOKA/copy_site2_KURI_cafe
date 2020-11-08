@@ -5,15 +5,19 @@ html {
 .header__pc-nav ,
 .menu__card__card1__pc-img ,
 .menu__card__card2__pc-img ,
-.menu__card__card3__pc-img{
+.menu__card__card3__pc-img ,
+.shop__top__pc-img ,
+.shop__bottom__pc-img {
     display: none;
 }
 
 
 /*--------------------title 共通-----------------------*/
-
+/* -------------h2 title------------- */
 .over-view__title ,
-.menu__tilte {
+.menu__tilte ,
+.shop__title ,
+.blog__title {
     color: rgb(93,60, 40);
     font-size: 1.9rem;
     font-weight: bold;
@@ -22,6 +26,50 @@ html {
     padding: 50px 0 40px;
     text-align: center;
 }
+
+
+/* -------------h3 title------------- */
+.menu__card__card1__title ,
+.menu__card__card2__title ,
+.menu__card__card3__title ,
+.shop__top__right__title ,
+.shop__bottom__left__title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: start;
+    padding: 15px 0;
+}
+
+
+/*--------------------img 共通-----------------------*/
+.menu__card__card1__sp-img ,
+.menu__card__card2__sp-img ,
+.menu__card__card3__sp-img ,
+.shop__top__sp-img ,
+.shop__bottom__sp-img {
+    width: 90vw;
+}
+
+
+/*--------------------more 共通-----------------------*/
+.shop__top__more ,
+.shop__bottom__more ,
+.blog__more {
+    color: #ffffff;
+    font-size: 1.2rem;
+    background-color: rgb(92, 60, 39);
+    text-decoration: none;
+    padding: 20px 80px;
+    text-align: center;
+    letter-spacing: .2rem;
+}
+.shop__top__more--opacity:active ,
+.shop__bottom__more--opacity:active ,
+.blog__more--opacity:active ,
+.blog__more--opacity:active{
+    opacity: 0.8;
+}
+
 
 
 /*--------------------hader-----------------------*/
@@ -127,21 +175,6 @@ html {
     align-items: flex-start;
 }
 
-.menu__card__card1__sp-img ,
-.menu__card__card2__sp-img ,
-.menu__card__card3__sp-img {
-    width: 90vw;
-}
-
-.menu__card__card1__title ,
-.menu__card__card2__title ,
-.menu__card__card3__title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: start;
-    padding: 15px 0;
-}
-
 .menu__card__card1__text ,
 .menu__card__card2__text ,
 .menu__card__card3__text {
@@ -149,4 +182,110 @@ html {
     letter-spacing: .3rem;
     line-height: 1.7;
     padding-bottom: 30px;
+}
+
+
+/*--------------------shop-----------------------*/
+#shop {
+    width: 90vw;
+    padding-bottom: 30px;
+
+}
+
+.shop__top ,
+.shop__bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.shop__top__right ,
+.shop__bottom__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 25px;
+}
+
+.shop__top__right__text1 ,
+.shop__top__right__text2 ,
+.shop__bottom__left__text1 ,
+.shop__bottom__left__text2 {
+    font-size: 1.3rem;
+    letter-spacing: .3rem;
+    line-height: 1.7;
+}
+
+
+/*--------------------BLOG-----------------------*/
+#blog {
+    width: 100vw;
+    background-color: rgb(252,245, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolg--vw {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.blog__news {
+    width: 90vw;
+}
+
+.blog__news__new1 ,
+.blog__news__new2 ,
+.blog__news__new3 ,
+.blog__news__new4 ,
+.blog__news__new5 {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.blog__news__news1__date ,
+.blog__news__news2__date ,
+.blog__news__news3__date ,
+.blog__news__news4__date ,
+.blog__news__news5__date {
+    color: #8b8b8b;
+    font-size: 1.1rem;
+    padding: 15px 0;
+}
+
+.blog__news__news1__text ,
+.blog__news__news2__text ,
+.blog__news__news3__text ,
+.blog__news__news4__text ,
+.blog__news__news5__text {
+    color: #000000;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding-bottom: 15px;
+    letter-spacing: .1rem;
+    display: block;
+}
+
+.blog__more {
+    margin: 25px 0 50px;
+}
+
+
+/*--------------------ACCESS-----------------------*/
+.access__item-box__item__sns-icon__list__twitter ,
+.access__item-box__item__sns-icon__list__line{
+    color: red;
+}
+
+.access__item-box__item__sns-icon__list__twitter--opacity:active {
+    opacity: 0.8;
+
 }
