@@ -118,6 +118,15 @@ html {
 .blog__more--opacity:active{
     opacity: 0.8;
 }
+@media screen and (min-width:826px) {
+    .shop__top__more--opacity:hover ,
+    .shop__bottom__more--opacity:hover ,
+    .blog__more--opacity:hover ,
+    .blog__more--opacity:hover{
+        opacity: 0.8;
+    }
+
+}
 
 .shop__top__more ,
 .shop__bottom__more {
@@ -132,6 +141,14 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* 背景色付けないと文字だけになる */
+    background-color: #ffffff;
+}
+@media screen and (min-width:826px) {
+    #header {
+        /* 上部固定 */
+        position: fixed;
+    }
 }
 
 .header__logo ,
@@ -651,7 +668,15 @@ html {
 .access__item-box__item__sns-icon__list__line--opacity:active {
     opacity: 0.5;
 }
+@media screen and (min-width:826px) {
+    .access__item-box__item__sns-icon__list__twitter--opacity:hover ,
+    .access__item-box__item__sns-icon__list__facebook--opacity:hover ,
+    .access__item-box__item__sns-icon__list__instagram--opacity:hover ,
+    .access__item-box__item__sns-icon__list__line--opacity:hover {
+        opacity: 0.5;
+    }
 
+}
 
 /*--------------------footer-----------------------*/
 .footer {
