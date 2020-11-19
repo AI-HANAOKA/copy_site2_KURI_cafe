@@ -27,7 +27,7 @@
     <header id="header">
 <!--            本来ならこのサイトのURL -->
         <h1>
-            <a href="./index.html" class="header__logo">KURIcafe</a>
+            <a href="./index.html" id="header__logo">KURIcafe</a>
         </h1>
 
         <nav class="header__pc-nav">
@@ -51,7 +51,42 @@
             </ul>
         </nav>
 
-        <nav class="header__sp-nav"></nav>
+        <nav class="header__sp-nav">
+            <input id="nav-input" type="checkbox" class="header__sp-nav__checkbox header__sp-nav__checkbox--none">
+
+            <label id="nav-open" for="nav-input" class="header__sp-nav__icon">
+                <span class="header__sp-nav__icon__item"></span>
+            </label>
+            
+            <label id="nav-close" for="nav-input" class="header__sp-nav__close"></label>
+
+            <div class="header__sp-nav__content">
+
+                <ul class="header__sp-nav__content__link">
+                    
+                    <li>
+                        <a href="./index.html" class="header__sp-nav__content__link__header">KURIcafe</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#menu" class="header__sp-nav__content__link__menu">MENU</a>
+                    </li>
+
+                    <li>
+                        <a href="#shop" class=" header__sp-nav__content__link__shop">SHOP</a>
+                    </li>
+                    <li>
+                        <a href="#blog" class="header__sp-nav__content__link__blog">BLOG</a>
+                    </li>
+    
+                    <li>
+                        <a href="#access" class=" header__sp-nav__content__link__access">ACCESS</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
 
     </header>
 
@@ -70,11 +105,13 @@
 
             <h2 class="over-view__title">タイトルが入ります</h2>
 
-            <p class="over-view__text1">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+            <div class="over-view__text-box">
+                <p class="over-view__text-box__text1">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
 
-            <p class="over-view__text2">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                <p class="over-view__text-box__text2">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
 
-            <p class="over-view__text3">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                <p class="over-view__text-box__text3">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+            </div>
 
         </section>
 
