@@ -82,7 +82,7 @@ html {
     .menu__card__card3__title,
     .shop__top__right__text-box__title,
     .shop__bottom__left__text-box__title {
-        font-size: 1.5rem;
+        font-size: 2rem;
         letter-spacing: .2rem;
     }
 }
@@ -117,7 +117,7 @@ html {
     .shop__bottom__more,
     .blog__more {
         padding: 15px 60px;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -520,7 +520,7 @@ html {
     .menu__card__card1__text,
     .menu__card__card2__text,
     .menu__card__card3__text {
-        font-size: 1rem;
+        font-size: 1.5rem;
         letter-spacing: .1rem;
         padding-bottom: 50px;
     }
@@ -615,8 +615,8 @@ html {
     .shop__top__right__text-box__text2,
     .shop__bottom__left__text-box__text1,
     .shop__bottom__left__text-box__text2 {
-        font-size: 1rem;
-        line-height: 1;
+        font-size: 1.5rem;
+        line-height: 1.5;
     }
 
     .shop__top__right__text-box__text1,
@@ -703,7 +703,7 @@ html {
     .blog__news__news4__date,
     .blog__news__news5__date {
         color: #8b8b8b;
-        font-size: .5rem;
+        font-size: 1rem;
         padding: 0 50px 0 0;
     }
 }
@@ -730,7 +730,7 @@ html {
     .blog__news__news4__text,
     .blog__news__news5__text {
         color: #000000;
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-decoration: none;
         padding-bottom: 0px;
         letter-spacing: .1rem;
@@ -807,6 +807,11 @@ html {
     font-size: 1.2rem;
     letter-spacing: .1rem;
 }
+@media screen and (min-width:826px) {
+    .access__item-box__item__text {
+        font-size: 1.5rem;
+    }
+}
 
 .access__item-box__item__text__address-number,
 .access__item-box__item__text__address,
@@ -820,7 +825,7 @@ html {
 
 @media screen and (min-width:826px) {
     .access__item-box__item__text__address {
-        padding-bottom: 10px;
+        padding-bottom: 15px;
     }
 
 }
