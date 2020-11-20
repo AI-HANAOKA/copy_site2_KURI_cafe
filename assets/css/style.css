@@ -409,7 +409,7 @@ html {
 
 @media screen and (min-width:826px) {
     .over-view {
-        width: 50vw;
+        width: 70vw;
     }
 }
 
@@ -677,6 +677,8 @@ html {
     .blog__news__new5 {
         display: flex;
         flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
         padding: 15px 0;
     }
 }
