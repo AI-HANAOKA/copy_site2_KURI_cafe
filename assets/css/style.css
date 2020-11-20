@@ -8,7 +8,8 @@ html {
 .menu__card__card2__pc-img,
 .menu__card__card3__pc-img,
 .shop__top__pc-img,
-.shop__bottom__pc-img {
+.shop__bottom__pc-img ,
+.access__item-box__item__text__tel-number-pc {
     display: none;
 }
 
@@ -19,7 +20,9 @@ html {
     .menu__card__card2__sp-img,
     .menu__card__card3__sp-img,
     .shop__top__sp-img,
-    .shop__bottom__sp-img {
+    .shop__bottom__sp-img ,
+    .access__item-box__item__text__tel-number-sp ,
+    .access__item-box__item__text__tel-number-alert-sp {
         display: none;
     }
 
@@ -28,7 +31,8 @@ html {
     .menu__card__card2__pc-img,
     .menu__card__card3__pc-img,
     .shop__top__pc-img,
-    .shop__bottom__pc-img {
+    .shop__bottom__pc-img ,
+    .access__item-box__item__text__tel-number-pc {
         display: inline;
     }
 }
@@ -811,9 +815,22 @@ html {
     }
 }
 
+.access__item-box__item__text__tel-number-sp {
+    font-size: 1.6rem;
+    color: #000;
+}
+
+.access__item-box__item__text__tel-number-alert-sp {
+    color: rgb(93,60, 40);
+    font-size: 1rem;
+    padding-bottom: 2px;
+    letter-spacing: 0;
+}
+
 .access__item-box__item__text__address-number,
 .access__item-box__item__text__address,
-.access__item-box__item__text__tel-number {
+.access__item-box__item__text__tel-number ,
+.access__item-box__item__text__tel-number-sp {
     padding-bottom: 5px;
 }
 
